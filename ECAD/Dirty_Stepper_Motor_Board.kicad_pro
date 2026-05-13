@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -670,7 +670,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "../Outputs/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -794,7 +794,7 @@
         "uuid": "e2108898-a7cf-4afc-a0ee-7ef80a7e9bd5"
       }
     ],
-    "used_designators": "C8",
+    "used_designators": "J4,C8",
     "variants": []
   },
   "sheets": [

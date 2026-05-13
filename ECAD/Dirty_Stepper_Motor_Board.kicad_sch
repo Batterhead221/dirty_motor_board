@@ -1617,6 +1617,222 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_MTA-100:mta100_01x4_P2.54_647050-4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Polyfuse"
 			(pin_numbers
 				(hide yes)
@@ -2726,340 +2942,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Motor:Stepper_Motor_bipolar"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "M"
-				(at 3.81 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Stepper_Motor_bipolar"
-				(at 3.81 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.254 -0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-				(at 0.254 -0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4-wire bipolar stepper motor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "bipolar stepper motor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm*Vertical* TerminalBlock* Motor*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -1.27 2.032) (xy 0 -0.508) (xy 1.27 2.032) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_0_1"
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -4.445 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -4.445 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 2.54)
-					(mid -3.8127 1.905)
-					(end -4.445 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 1.27)
-					(mid -3.8127 0.635)
-					(end -4.445 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 0)
-					(mid -3.8127 -0.635)
-					(end -4.445 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -4.445 -1.27)
-					(mid -3.8127 -1.905)
-					(end -4.445 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 4.445)
-					(mid -1.905 3.8127)
-					(end -2.54 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.445)
-					(mid -0.635 3.8127)
-					(end -1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 4.445)
-					(mid 0.635 3.8127)
-					(end 0 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 4.445)
-					(mid 1.905 3.8127)
-					(end 1.27 4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Stepper_Motor_bipolar_1_1"
-				(pin passive line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PWR_MANAGEMENT:+3.3V"
 			(power global)
 			(pin_numbers
@@ -4014,7 +3896,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 123.19 63.5)
+			(xy 114.3 63.5) (xy 132.08 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4214,6 +4096,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579b99e2-e1b6-4919-b306-6482314aa894")
+	)
+	(wire
+		(pts
 			(xy 82.55 49.53) (xy 87.63 49.53)
 		)
 		(stroke
@@ -4221,6 +4113,16 @@
 			(type default)
 		)
 		(uuid "5c7fc3a0-09d0-47a8-bae2-ad03113e5623")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2a97fd-2ec8-4401-b6e7-945dbb3b1787")
 	)
 	(wire
 		(pts
@@ -4564,6 +4466,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 71.12) (xy 128.27 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca72452a-ed5d-4b74-82ce-dca996c7ca5f")
+	)
+	(wire
+		(pts
 			(xy 48.26 77.47) (xy 53.34 77.47)
 		)
 		(stroke
@@ -4571,6 +4483,26 @@
 			(type default)
 		)
 		(uuid "ca9d5280-9caa-41a7-968e-21174928fc96")
+	)
+	(wire
+		(pts
+			(xy 132.08 73.66) (xy 135.89 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb3396c-a4ed-420b-97bb-43b99a2f44c3")
+	)
+	(wire
+		(pts
+			(xy 128.27 71.12) (xy 135.89 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce8eda1f-b899-4657-b42f-a6ad9f85b158")
 	)
 	(wire
 		(pts
@@ -4604,6 +4536,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 63.5) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65ab3c5-a9f2-4004-81bc-a8518379d5d9")
+	)
+	(wire
+		(pts
 			(xy 48.26 97.79) (xy 53.34 97.79)
 		)
 		(stroke
@@ -4634,16 +4576,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 83.82) (xy 102.87 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98e9192-2842-4fc8-9ad4-78dd9f09c037")
-	)
-	(wire
-		(pts
 			(xy 78.74 54.61) (xy 90.17 54.61)
 		)
 		(stroke
@@ -4651,6 +4583,16 @@
 			(type default)
 		)
 		(uuid "eaa88b72-e0b3-432a-b68a-6cc09ceb1f60")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 135.89 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecfa626b-da84-4615-9afc-753bc8b893d7")
 	)
 	(wire
 		(pts
@@ -4714,7 +4656,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 73.66) (xy 133.35 83.82)
+			(xy 133.35 76.2) (xy 133.35 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4762,7 +4704,7 @@
 		)
 		(uuid "12fef0d7-3f95-4ba3-bfb1-f6ba5d7c3ac6")
 	)
-	(label "AOUT1"
+	(label "RED"
 		(at 102.87 68.58 0)
 		(effects
 			(font
@@ -4782,7 +4724,7 @@
 		)
 		(uuid "1461ffee-90bf-473a-8143-1d83ac88230e")
 	)
-	(label "BOUT2"
+	(label "GREEN"
 		(at 102.87 78.74 0)
 		(effects
 			(font
@@ -4802,7 +4744,7 @@
 		)
 		(uuid "270da9fb-278c-4df1-8ef6-04cf14ee2710")
 	)
-	(label "AOUT2"
+	(label "BLUE"
 		(at 102.87 73.66 0)
 		(effects
 			(font
@@ -4872,7 +4814,7 @@
 		)
 		(uuid "4fe640b8-27bf-4a9f-b9a1-b784305c4875")
 	)
-	(label "BOUT1"
+	(label "BLACK"
 		(at 102.87 83.82 0)
 		(effects
 			(font
@@ -6647,94 +6589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Motor:Stepper_Motor_bipolar")
-		(at 130.81 66.04 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "95cb221c-fd6b-44c0-b0b5-2d4aa80acf71")
-		(property "Reference" "M1"
-			(at 135.6742 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "17HS4412B"
-			(at 136.3092 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "MTA:MTA-4"
-			(at 131.064 65.786 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Application-Note-TLE8110EE_driving_UniPolarStepperMotor_V1.1.pdf?fileId=db3a30431be39b97011be5d0aa0a00b0"
-			(at 131.064 65.786 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "4-wire bipolar stepper motor"
-			(at 130.81 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "c2d5232a-cb29-48b6-91a6-33b0936216f5")
-		)
-		(pin "2"
-			(uuid "59f0ec18-ef48-40b4-bc59-77daf01c3773")
-		)
-		(pin "4"
-			(uuid "5a71d1d6-311a-4d6a-af4b-77ac13c79d7a")
-		)
-		(pin "1"
-			(uuid "a37d70c7-9d55-408b-a1b5-f42615e060e1")
-		)
-		(instances
-			(project "Dirty_Stepper_Motor_Board"
-				(path "/e2108898-a7cf-4afc-a0ee-7ef80a7e9bd5"
-					(reference "M1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PWR_MANAGEMENT:V-GND")
 		(at 55.88 63.5 0)
 		(unit 1)
@@ -7720,6 +7574,94 @@
 			(project "Dirty_Stepper_Motor_Board"
 				(path "/e2108898-a7cf-4afc-a0ee-7ef80a7e9bd5"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 140.97 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8d68e3-c5b1-4501-9981-e8ef9ecf6ef8")
+		(property "Reference" "J4"
+			(at 143.51 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MTR1"
+			(at 143.51 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MTA:MTA-4"
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 140.97 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "0aa42e5e-dd75-4063-be00-019dead2c861")
+		)
+		(pin "3"
+			(uuid "62f69e9d-d43a-4914-aa46-390ccd4e7a35")
+		)
+		(pin "2"
+			(uuid "7813e57c-b4a1-4f2f-b9f4-4ca188d096a8")
+		)
+		(pin "1"
+			(uuid "f56ac5bf-9b1b-421f-8a84-dcc7329710ce")
+		)
+		(instances
+			(project "Dirty_Stepper_Motor_Board"
+				(path "/e2108898-a7cf-4afc-a0ee-7ef80a7e9bd5"
+					(reference "J4")
 					(unit 1)
 				)
 			)
