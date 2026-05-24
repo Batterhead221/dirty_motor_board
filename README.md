@@ -23,52 +23,6 @@ This board is designed for a 17HS4412B two-phase stepper motor rated for 3.9 V a
 | VM bulk cap | 100 µF / 50 V |
 | Board role | Motor driver daughter board for Brain_Board |
 
-## Connectors
-
-### J1 - VM Power Input
-
-| Pin | Signal |
-|---:|---|
-| 1 | GND |
-| 2 | VIN / VM |
-
-### J2 - Motor Control
-
-| Pin | Signal |
-|---:|---|
-| 1 | GND |
-| 2 | +3V3 |
-| 3 | EN |
-| 4 | nSLEEP |
-| 5 | nFAULT |
-| 6 | STEP |
-| 7 | DIR |
-| 8 | DRV_CS |
-
-### J3 - SPI
-
-| Pin | Signal |
-|---:|---|
-| 1 | GND |
-| 2 | +3V3 |
-| 3 | SPI_MISO |
-| 4 | SPI_MOSI |
-| 5 | SPI_SCK |
-| 6 | GND |
-
-### M1 - Motor Output
-
-| Pin | Signal |
-|---:|---|
-| 1 | AOUT2 |
-| 2 | BOUT1 |
-| 3 | BOUT2 |
-| 4 | AOUT1 |
-
-Measured motor coil pairs:
-
-- Coil A: pins 1 and 4
-- Coil B: pins 2 and 3
 
 ## Design Notes
 
